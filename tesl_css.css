@@ -1,0 +1,47 @@
+h1 {
+    padding: 40px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px
+}
+body {
+    background: url("images/tesla_model_3.png") scroll;
+    background-size: 100%;
+}
+img.tesla_3 {
+    vertical-align: text-top;
+    position: relative;
+}
+
+ol {
+    align-items: center;
+}
+div.first button {
+    -webkit-font-smoothing: antialiased;
+}
+
+div.first button {
+    -webkit-font-smoothing: antialiased;
+    width: 778px;
+    height: 672.922px;
+    align-items: center;
+}
+
+section {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0000;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 4px 24px 4px 24px;
+    inline-size: 4px;
+    align-items: center;
+    text-align: center;
+    width: 210px;
+    height: 26px;
+}

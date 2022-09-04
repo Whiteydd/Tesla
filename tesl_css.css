@@ -1,3 +1,5 @@
+
+
 h1 {
     padding: 40px;
     text-align: center;
@@ -14,8 +16,32 @@ img.tesla_3 {
     position: relative;
 }
 
-ol {
+ul li {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #171A20;
+    display: block;
+    padding: 4px 8px 4px 8px;
+
+}
+
+
+ul.models {
+    display: flex;
     align-items: center;
+}
+
+ul.nav{
+    display: flex;
+    align-items: end;
+}
+
+a:link a:hover a:visited a:active {
+    font-weight: 500;
+    font-size: 14px;
+    color: #171A20;
+    text-decoration: none;
 }
 div.first button {
     -webkit-font-smoothing: antialiased;
@@ -28,20 +54,39 @@ div.first button {
     align-items: center;
 }
 
-section {
+ a.order {
     font-family: "Segoe UI", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    text-decoration: none;
+     color: white;
+
+     display: inline-block;
     border-width: 3px;
     border-style: solid;
-    border-color: #0000;
-    background-color: gray;
+    border-color: rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
     border-radius: 4px;
-    padding: 4px 24px 4px 24px;
-    inline-size: 4px;
+    block-size: border-box;
+     padding-left: 24px;
+     padding-right: 24px;
+     padding-bottom: 4px;
+     padding-top: 4px;
     align-items: center;
     text-align: center;
     width: 210px;
     height: 26px;
 }
+
+ a.order span {
+     line-height: 1.2;
+     display: inline-block;
+     width: 210px;
+     height: 16.8px;
+     padding: 5px;
+     font-weight: bold;
+ }
+
+
+
+
